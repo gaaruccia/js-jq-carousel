@@ -47,50 +47,50 @@ function nextImg(){
   }
 }
 function selectFirst(){
-  $(".two").hide().removeClass("active")
-  $(".three").hide().removeClass("active")
-  $(".last").hide().removeClass("active")
+  $(".two").removeClass("active")
+  $(".three").removeClass("active")
+  $(".last").removeClass("active")
   $(".secondcircle").removeClass("active")
   $(".threecircle").removeClass("active")
   $(".lastcircle").removeClass("active")
   if($(".nav i").hasClass("firstcircle")){
     $(".firstcircle").addClass("active")
-    $(".first").show().addClass("active")
+    $(".first").addClass("active")
   }
 }
 function selectImg2(){
-  $(".first").hide().removeClass("active")
-  $(".three").hide().removeClass("active")
-  $(".last").hide().removeClass("active")
+  $(".first").removeClass("active")
+  $(".three").removeClass("active")
+  $(".last").removeClass("active")
   $(".firstcircle").removeClass("active")
   $(".threecircle").removeClass("active")
   $(".lastcircle").removeClass("active")
   if($(".nav i").hasClass("secondcircle")){
     $(".secondcircle").addClass("active")
-    $(".two").show().addClass("active")
+    $(".two").addClass("active")
   }
 }
 function selectImg3(){
-  $(".first").hide().removeClass("active")
-  $(".two").hide().removeClass("active")
-  $(".last").hide().removeClass("active")
+  $(".first").removeClass("active")
+  $(".two").removeClass("active")
+  $(".last").removeClass("active")
   $(".firstcircle").removeClass("active")
   $(".secondcircle").removeClass("active")
   $(".lastcircle").removeClass("active")
   if($(".nav i").hasClass("threecircle")){
     $(".threecircle").addClass("active")
-    $(".three").show().addClass("active")
+    $(".three").addClass("active")
   }
 }
 function selectLast(){
-  $(".first").hide().removeClass("active")
-  $(".two").hide().removeClass("active")
-  $(".three").hide().removeClass("active")
+  $(".first").removeClass("active")
+  $(".two").removeClass("active")
+  $(".three").removeClass("active")
   $(".firstcircle").removeClass("active")
   $(".secondcircle").removeClass("active")
   $(".threecircle").removeClass("active")
   if($(".nav i").hasClass("lastcircle")){
     $(".lastcircle").addClass("active")
-    $(".last").show().addClass("active")
+    $(".last").addClass("active")
   }
 }
